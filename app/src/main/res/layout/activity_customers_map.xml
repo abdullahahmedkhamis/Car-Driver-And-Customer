@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomersMapActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/location_search"
+            android:layout_width="314dp"
+            android:layout_height="50dp"
+           android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="@string/write_any_place_name"
+            android:layout_alignParentLeft="true"
+            android:autofillHints=""
+            android:inputType="text" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onClick"
+            android:id="@+id/searchaddress"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/search"
+            android:contentDescription="@string/todo" />
+
+    </RelativeLayout>
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:context=".CustomersMapActivity"
+        android:layout_alignParentLeft="true"
+       />
+
+    <RelativeLayout
+        android:id="@+id/second_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/hospitals_nearby"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginBottom="1dp"
+            android:contentDescription="@string/todo"
+            android:onClick="onClick"
+            android:src="@mipmap/hospital" />
+
+        <ImageButton
+            android:id="@+id/school_nearby"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginBottom="1dp"
+            android:layout_toEndOf="@+id/hospitals_nearby"
+            android:layout_toRightOf="@+id/hospitals_nearby"
+            android:contentDescription="@string/todo"
+            android:onClick="onClick"
+            android:src="@mipmap/school" />
+
+        <ImageButton
+            android:id="@+id/restaurants_nearby"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="275dp"
+            android:layout_marginLeft="275dp"
+            android:layout_marginBottom="1dp"
+            android:layout_toEndOf="@+id/school_nearby"
+            android:layout_toRightOf="@+id/school_nearby"
+            android:contentDescription="@string/todo"
+            android:onClick="onClick"
+            android:src="@mipmap/restaurant" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

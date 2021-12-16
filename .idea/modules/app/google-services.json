@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "222881096491",
+    "firebase_url": "https://makestreamputvideoindriv.firebaseio.com",
+    "project_id": "makestreamputvideoindriv",
+    "storage_bucket": "makestreamputvideoindriv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222881096491:android:4027345a585058fa3e9b6e",
+        "android_client_info": {
+          "package_name": "makestreamputvideo.makestreamputvideo.makestreamputvideoingoogledriveandputlinkinfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222881096491-blremdndaoobtp6p57mis42n4qv2bj0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "makestreamputvideo.makestreamputvideo.makestreamputvideoingoogledriveandputlinkinfirebase",
+            "certificate_hash": "ab23cff39957dfaa13c8be3265e39052176ae9fa"
+          }
+        },
+        {
+          "client_id": "222881096491-jen3vctc7ruui9h9jtlphm0co2c17tbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3MIerg2p9psHu9VAKOgEgs3iaAXwVFXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222881096491-jen3vctc7ruui9h9jtlphm0co2c17tbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
